@@ -3,7 +3,7 @@ import Cale_Survey
 import Cale_DSM_Encyclopedia
 
 def options(): # Options for user to choose from
-    print("Alright, here are some resources that we offer: [(1)DSM-Encyclopedia, (2)Breathing Exercises, (3)Cale-AI, (4)Custom-Alarms, (5)Calendars, (6)Chatrooms, (7)Survey, (8)Appearance]");
+    print("Here are some resources that we offer: [(1)DSM-Encyclopedia, (2)Breathing Exercises, (3)Cale-AI, (4)Custom-Alarms, (5)Calendars, (6)Chatrooms, (7)Survey, (8)Appearance]");
     choice1 = int(input("Type the number corresponding to the choice listed above to use it: "));
     if choice1 == 1:
         Cale_DSM_Encyclopedia.encyclopedia(); # Calls the encyclopedia function from Cale_DSM_Encyclopedia.py
