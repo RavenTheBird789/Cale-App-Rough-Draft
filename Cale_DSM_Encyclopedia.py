@@ -1,6 +1,9 @@
 # Cale DSM Encyclopedia
+
+GREEN = '\033[92m'
+
 def encyclopedia():
-    print("Alcohol Use Disorder");
+    print(f"{GREEN}Alcohol Use Disorder");
     print("Antisocial Personality Disorder");
     print("Attention-Deficit/Hyperactivity Disorder");
     print("Autism Spectrum Disorder");
