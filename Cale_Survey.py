@@ -1,7 +1,10 @@
 # Cale Survey Code
+
+GREEN = '\033[92m'
+
 def Survey():
     # Question 1
-    print("How often do you struggle to focus on a task?")
+    print(f"{GREEN}How often do you struggle to focus on a task?")
     print("1. Never")
     print("2. Sometimes")
     print("3. Often")
