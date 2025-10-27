@@ -18,3 +18,4 @@ def encyclopedia():
     print("Social Anxiety Disorder");
     print("Specific Phobia");
     print("Tourette's Disorder");
+    
